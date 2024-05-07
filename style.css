@@ -1,0 +1,167 @@
+.heading{
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: orangered;
+    font-size: small;
+}
+.description,
+.name,
+.date,
+.container-head,
+.stats,
+.description-head,
+.parent,
+.moon-head{
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: small;
+    border:none;
+    background-color: orangered;
+}
+.planetname,
+.discoverdate,
+.discoveredby{
+    color:orangered;
+    background-color: white;
+    border: 1px solid orangered;
+}
+.container{
+    display: inline-block;
+    display:flex;
+    width: 120%;
+}
+
+.column {
+    flex: 1;
+    overflow-y: auto;
+    height: 80vh;
+    border: 1px solid orangered;
+    
+  }
+  .column::-webkit-scrollbar {
+    display: none;
+  }
+.section {
+    width: 100%;
+    height: 20px; 
+    background-color: white;
+    border: .5px solid orangered; 
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: orangered;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+  }
+
+  .display-container{
+    width: 30%;
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid orangered; 
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description-container{
+    display:inline-block;
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .sheet{
+    display:inline-block;
+  }
+
+  .moon-container{
+    display:inline-block;
+    width: 30%;
+    float: right;
+    margin-right: 5px;
+  }
+
+  .moondisplay-container{
+    display:inline-block;
+    width: 30%;
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid orangered; 
+    margin-right: 5px;
+    grid-template-columns: repeat(auto-fill, 100px); 
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: orangered;
+    font-size: small;
+    text-transform: uppercase;
+    padding-left: 20px;
+
+  }
+
+  .mars-button,
+  .venus-button,
+  .earth-button,
+  .mercury-button,
+  .neptune-button,
+  .jupiter-button,
+  .saturn-button,
+  .uranus-button{
+    display: inline-block;
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: small;
+    border:1px solid orangered;
+    background-color: orangered;
+    cursor: pointer;
+  }
+
+  .planet-buttons-1{
+    margin-bottom: 10px;
+    top: -27vh;
+    position: relative;
+  }
+  .planet-buttons-2{
+    margin-bottom: 10px;
+    top: -27vh;
+    position: relative;
+  }
+
+  .planet-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #ff0000; /* Example background color */
+    border-radius: 50%; /* Ensure the circle shape */
+    margin: 5px; /* Adjust as needed */
+  }
+
+  .text-container{
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: orangered;
+    font-size: small;
+  }

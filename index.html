@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/qts4uch.css">
+    </head>
+    <body>
+        <div class = "headercontainer">
+            <div class = "heading">THE CELESTICAL COCKPIT ™</div>
+            <button class = "description">THIS SHEET IS AN ARCHIVE OF KNOWN AND UNKNOWN CELESTIAL BODIES IN THE SOLAR SYSTEM. DO YOU THINK YOU KNOW SPACE? WELL, INTERACT WITH THE SHEET BELOW TO TEST YOUR KNOWLEDGE OR ERRR GAIN SOME!</button>
+        </div><br><br>
+
+        <!-- needs to be replaced by the name of the planet, the date it was discovered and who it was discovered by using the API -->
+        <div class = "keyinfo">
+            <button class = "name" id = "name">NAME: <button class = "planetname">DISPLAY PLANET NAME</button></button>
+            <button class = "date" id = "date">DATE: <button class = "discoverdate">DISPLAY DATE OF BIRTH</button></button>
+            <button class = "parent" id = "discoveredby">PARENT NAME: <button class = "discoveredby">DISPLAY NAME OF DISCOVERER</button></button><br><br>
+        </div>
+
+        <!-- needs to display prefilled circles based on if the entity is a planet or not. We already know planets, we don't aprticularly know the bodies surrounding them. -->
+        <div class = "sheet">
+        <button class = "container-head"> CHOOSE YOUR OPTION [PAY ATTENTION TO THE PRE-FILLED ONES!]</button>
+        <div class = "container" id = "circlesContainer">
+            <div class="column" id="column1"></div>
+            <div class="column" id="column2"></div>
+            <div class="column" id="column3"></div>
+        </div>
+        </div>
+
+        <!-- needs to display a randomly generated circle based on the clicking of circles -->
+        <div class = "description-container">
+            <button class = "description-head">DISPLAY MONITOR</button>
+            <div class = "display-container">
+                <div class = "text-container"></div>
+            </div>
+        </div>
+
+        <!-- need to make another container on the right to display the moons -->
+        <div class = "moon-container">
+            <button class = "moon-head">DETAIL MONITOR</button>
+            <div class = "moondisplay-container"></div>
+        </div>
+
+        <!-- need to make buttons on the side that display the moons of the specific planet-->
+        <div class = "planet-buttons-1">
+            <button class = "mars-button" id = "mars-button" >MARS</button>
+            <button class = "venus-button" id = "venus-button">VENUS</button>
+            <button class = "mercury-button" id = "mercury-button">MERCURY</button>
+            <button class = "earth-button" id = "earth-button">EARTH</button>
+        </div>
+        <div class = "planet-buttons-2">
+            <button class = "neptune-button" id = "neptune-button">NEPTUNE</button>
+            <button class = "jupiter-button" id = "jupiter-button">JUPITER</button>
+            <button class = "saturn-button" id = "saturn-button">SATURN</button>
+            <button class = "uranus-button" id = "uranus-button">URANUS</button><br><br>
+        </div>
+    </body>
+    <script src = "script.js"></script>
+</html>
